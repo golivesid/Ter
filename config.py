@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6742876658:AAFB76U0BTtUgfuCX81v_IB1jYyJ0gocUV0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7463290899:AAGRp1QvX58G-ErtxMEnB7wFAtgMOC7qJQs")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "21118585"))
@@ -19,22 +19,22 @@ APP_ID = int(os.environ.get("APP_ID", "21118585"))
 API_HASH = os.environ.get("API_HASH", "ee05a7c74bd7dc0a8b2c6d0cbb0caf47")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002005291746"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002121934083"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7035291765"))
 
 #Port
-PORT = os.environ.get("PORT", "8047")
+PORT = os.environ.get("PORT", "8021")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://instahooboo:instahooboo@cluster0.0smtamg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "instahooboo")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002151464281"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002213062086"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001995558393"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002137760473"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002113218037"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001614444819"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -60,7 +60,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" el
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "🥰 𝖬𝖺𝗍𝗍 𝖪𝖺𝗋 𝖮𝗒𝖾 𝗈𝗇𝗅𝗒 𝖥𝗂𝗅𝖾 𝖲𝗁𝖺𝗋𝖾 𝖻𝗈𝗍 𝗁𝗎 𝖬𝖾𝗋𝖾 𝖠𝖽𝗆𝗂𝗇 𝗌𝖾 𝖡𝖺𝖺𝗍 𝗄𝖺𝗋 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖴𝗇𝗌𝖾𝖾𝗇 𝖲𝖭𝖠𝖯-𝖫𝖾𝖺𝗄 𝖫𝖾𝗇𝖺 𝖧𝖺𝗂 𝖳𝗁𝗈 @ZenottyPremium !!\n\n 𝖣𝖬 : @Zenotty"
+USER_REPLY_TEXT = "🥰 𝖬𝖺𝗍𝗍 𝖪𝖺𝗋 𝖮𝗒𝖾 𝗈𝗇𝗅𝗒 𝖥𝗂𝗅𝖾 𝖲𝗁𝖺𝗋𝖾 𝖻𝗈𝗍 𝗁𝗎. \n\n𝖬𝖾𝗋𝖾 𝖠𝖽𝗆𝗂𝗇 𝗌𝖾 𝖡𝖺𝖺𝗍 𝗄𝖺𝗋o 𝖯𝗋𝖾𝗆𝗂𝗎𝗆 𝖴𝗇𝗌𝖾𝖾𝗇 𝖲𝖭𝖠𝖯-𝖫𝖾𝖺𝗄 𝖫𝖾𝗇𝖺 𝖧𝖺𝗂 𝖳𝗁𝗈 @ZenottyPremium !!\n\n 𝖣𝖬 : @Zenotty"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
