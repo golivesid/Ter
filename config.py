@@ -10,31 +10,29 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7737840165:AAEQmr1OGG1Kpi6gy6kHPr6cZ3HTGLHlRRg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7050622921:AAH3fC4i1obNgvdSGfXg8nmA1KJIl-rcJWo")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "27564464"))
+APP_ID = int(os.environ.get("APP_ID", "23054736"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "30fcb9ee38f65bdbf3f5771b6514851d")
+API_HASH = os.environ.get("API_HASH", "d538c2e1a687d414f5c3dce7bf4a743c")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002449251845"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002146782406"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7224364540"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1352497419"))
 
 #Port
 PORT = os.environ.get("PORT", "8022")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.paam1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "wtflinksofficial")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://tera:tera@tera.egmhy.mongodb.net/?retryWrites=true&w=majority&appName=tera")
+DB_NAME = os.environ.get("DATABASE_NAME", "tera")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002305955604"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002111272545"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001614444819"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001911851456"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -63,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "🥰 𝖬𝖺𝗍𝗍 𝖪𝖺𝗋 𝖮𝗒𝖾 𝗈𝗇𝗅𝗒 𝖥𝗂𝗅𝖾 𝖲𝗁𝖺𝗋𝖾 𝖻𝗈𝗍 𝗁𝗎."
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(1352497419)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
